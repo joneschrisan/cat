@@ -30,3 +30,5 @@ open(my $fh, "<", $filename);
 while(my $row = <$fh>) {
 	print "$row\n";
 }
+
+close($fh);
